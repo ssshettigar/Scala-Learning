@@ -20,5 +20,47 @@ object Function extends  App {
     //return type must be specified for the recursive function
   }
 
-  println(repeatFunction("Hello",3))
+  //println(repeatFunction("Hello",3))
+
+  def aFunctionWithSideEffects(strVal: String): Unit = println(strVal)
+
+  //println(aFunctionWithSidEffects("Hello"))
+
+  //function inside a function - auxiliary function
+
+  def bigFunction(n:Int): Int ={
+    def smallFunction( a: Int, b: Int): Int = {
+      a+b
+    } //auxiliary function
+    smallFunction(n,n-1) // implementation of return type of bigfunction.
+  }
+  //bigFunction(10)
+
+  def greetingFunction(name: String , age: Int)  = {
+    println("Hi, My Name is "+name + "and I'm " + age + " years old")
+  }
+  greetingFunction("Srikanth",33)
+  def factorialFunction(number: Int): Int ={
+    if(number ==1) number
+    else
+      number * factorialFunction(number-1)
+  }
+
+  //println(factorialFunction(4))
+  def fibancciFunction(number : Int): Int ={
+    if(number <= 2) 1
+    else fibancciFunction(number-1) + fibancciFunction(number-2)
+  }
+  //println(fibancciFunction(10))
+  //1,1,2,3,5,8
+
+  def isPrime(number : Int): Boolean = {
+    def isPrimeUntil(t: Int): Boolean= {
+      if(t<=1) true
+      else number % t !=0 && isPrimeUntil(t-1)
+    }
+    isPrimeUntil(number/2)
+  }
+  println(isPrime(10))
+
 }

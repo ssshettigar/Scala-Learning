@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbb2f1c-a194-4551-802f-59923d2d9524" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lectures/Recursion.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scala-Beginner/lectures/Function$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scala-Beginner/lectures/Function$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scala-Beginner/lectures/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scala-Beginner/lectures/Function.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/Function.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/Function.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,21 +136,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1588031578217">
+    <state x="458" y="193" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588046694169">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1588031578217" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1588031578216">
+    <state x="458" y="193" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.794@0.23.1440.794" timestamp="1588046694169" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1588045911773">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1588031578216" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1588031578215">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1588045911773" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1588045911773">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1588031578215" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1588031578216">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1588045911773" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1588045911773">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1588031578216" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1588045911773" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1588045911773">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1588045911773" />
   </component>
 </project>
